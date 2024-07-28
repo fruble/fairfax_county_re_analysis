@@ -1,1 +1,5 @@
+data/address_data.csv filter=lfs diff=lfs merge=lfs -text
+data/dwelling_data.csv filter=lfs diff=lfs merge=lfs -text
+data/parcels_data.csv filter=lfs diff=lfs merge=lfs -text
+data/sales_data.csv filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
