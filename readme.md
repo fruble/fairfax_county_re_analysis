@@ -6,6 +6,6 @@ To gather a dataset I downloaded publicly available real estate related data fro
 
 - The query_wmata_api notebook shows how metro station location data was queried, organized, and saved to a small csv file
 - The prepare_sales_price_data notebook shows how the various datasets downloaded from Fairfax County's data portal, as well as the wmata data, were used to create a dataset to train machine learning models with
-- The sales_price_regression notebook uses the prepared dataset to experiment with training a few different models to try and predict the sales price of a single family home in Fairfax County in 2023.
+- The sales_price_regression notebook uses the prepared dataset to experiment with training a few different models to try and predict the sales price of a single family home in Fairfax County in 2023. Models trained include a variety of linear regressions, as well as K-Nearest Neighbor and Random Forest Models, where I also did some hyper paramter tuning.
 
 
